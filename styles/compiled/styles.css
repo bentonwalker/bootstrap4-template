@@ -1,7 +1,48 @@
+html {
+  position: relative;
+  min-height: 100%; }
+
+p {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 1rem; }
+
+h1, h2, h3, h4 {
+  font-family: "Lato", Arial, sans-serif; }
+
 h1 {
-  color: pink; }
+  font-size: 2.5rem;
+  font-weight: 300; }
 
-.btn-primary {
-  background-color: pink; }
+.navbar {
+  margin-bottom: 0rem; }
 
-/*# sourceMappingURL=sass.css.map */
+.top-hero {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 5rem;
+  background-color: #f3f3f3; }
+
+.top-hero h1 {
+  font-size: 3.375rem;
+  font-weight: 300; }
+
+.top-hero p:last-child {
+  margin-bottom: 0rem; }
+
+.top-hero .container {
+  max-width: 40rem; }
+
+.blue-background {
+  background-color: #0275d8;
+  min-height: 400px; }
+
+.footer {
+  margin-top: 80px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  line-height: 60px;
+  /* Vertically center the text there */
+  background-color: #f5f5f5; }
+
+/*# sourceMappingURL=styles.css.map */
